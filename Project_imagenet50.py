@@ -58,7 +58,7 @@ def create_model(input_shape):
     
     model.add(Dense(1, activation='relu'))
  
-    optimizer = Adam(lr=0.0005)
+    optimizer = Adam(lr=0.0003ТИ   ТТТ РЬРРРРРРЬТТПЖТППДЮЛ545541988 7 4 ЬЧЯ СМИ5)
     model.compile(optimizer=optimizer, loss='mse',
                   metrics=['mae'])
  
